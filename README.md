@@ -13,9 +13,9 @@ that could take in a variable number of stringers as well as a variable amount o
 because we didnt need to calculate those values and could just use the code to find the numbers. 
 
 Scaffolding callouts is an arbitrary Python script that I created to solve a problem at work. The program basically takes a photo input and 
-allows the user to draw boxes in multiple colors using left click to locate the . The pixels location of the coords of the boxes are 
-stored as vectors and has a feature that allows the user to delete drawn boxes by right clicking and updating the program. The vectors 
-of the coords are also stored in a txt file which allows the loading of previous entries and manipulation of the previous entries in 
-subsequent launches of the program. There is another feature that allows the user to zoom in on the image, draw a box in the zoomed in 
-image, zoom back out, and have the coords in the image adjust to account for the zoom. The zoomed in coords are converted to normal and
-stored in the same vector as the other boxes.
+allows the user to draw boxes in multiple colors using left click to locate the two corners of the box to be created. The pixels location 
+of the coords of the boxes are stored as vectors and has a feature that allows the user to delete drawn boxes by right clicking and 
+updating the program. The vectors of the coords are also stored in a txt file which allows the loading of previous entries and 
+manipulation of the previous entries in subsequent launches of the program. There is another feature that allows the user to zoom in on 
+the image, draw a box in the zoomed in image, zoom back out, and have the coords in the image adjust to account for the zoom. The zoomed
+in coords are converted to normal and stored in the same vector as the other boxes.
