@@ -12,7 +12,7 @@ cross-section, however, my group was not able to find lots of data on the string
 that could take in a variable number of stringers as well as a variable amount of cells. This helped the tail-end amount of work
 because we didnt need to calculate those values and could just use the code to find the numbers. 
 
-Scaffolding callouts is an arbitrary code that I created to solve a problem at work. The program basically takes a photo input and 
+Scaffolding callouts is an arbitrary Python script that I created to solve a problem at work. The program basically takes a photo input and 
 allows the user to draw boxes in multiple colors using left click to locate the . The pixels location of the coords of the boxes are 
 stored as vectors and has a feature that allows the user to delete drawn boxes by right clicking and updating the program. The vectors 
 of the coords are also stored in a txt file which allows the loading of previous entries and manipulation of the previous entries in 
